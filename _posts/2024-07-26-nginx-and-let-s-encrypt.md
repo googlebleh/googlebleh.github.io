@@ -116,5 +116,7 @@ sudo chown :nginx /etc/letsencrypt/archive /etc/letsencrypt/live /etc/letsencryp
 This allows the nginx group to read a few more files, but I made sure none of
 them were too sensitive for a web server to see.
 
-Reading `fullchain.pem` and `privkey.pem` were the only two errors I saw, so
-we're happily serving for now!
+Reading `fullchain.pem` and `privkey.pem` were the only two errors I saw while
+following these guides. Since copy-pasting the error messages into a search bar
+didn't yield any relevant solutions, I home this finds someone else with a
+similar problem!
